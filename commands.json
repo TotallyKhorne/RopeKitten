@@ -1,0 +1,39 @@
+{
+    "!pet": {
+        "type": "me",
+        "response": [
+            "purrs at #{target}",
+            "hisses and scratches at #{target}'s face",
+            "remains apathetic",
+            "enjoy's #{target}'s petting then after alotted stroke six bites the shit out of #{target}'s hand and runs off."
+        ]
+    },
+    "!loveme": {
+        "type": "me",
+        "response": [
+            "rubs up between #{target}'s legs and nyaa's lovingly",
+            "lays asleep on #{channel}'s couch and is uncaring towards your needs",
+            "bolts away under #{channel}'s table when #{target} approaches her",
+            "flattens her ears and hisses at #{target} making them back off",
+            "#{target} goes to find RopeKitten only to find that she is sleeping on #{random}'s lap, the fickle whore"
+        ]
+    },
+    "!nolewd": {
+        "type": "me",
+        "response": [
+            "disapproves of #{victim}'s lewdness and swiftly deals out punishment via a bite on the genitalia",
+            "sits there and stares at #{victim} with and incredibly dissapointed look",
+            "is so digusted she walks slowly away and curls up on #{channel}'s reading chair crippled forever by #{victim}'s unstable lewdness",
+            "goes and tells the qt Japanese neighbor next door that #{victim} is 2lewd4her, ruining #{victim}'s high school reputation forever more",
+            "has decided to end #{victim}'s life due to his lewdness"
+        ]
+    },
+    "!help": {
+        "type": "say",
+        "response": "Commands: !help, !pet, !loveme, !nolewd"
+    },
+    "!test": {
+        "type": "say",
+        "response": "It just werks"
+    }
+}
