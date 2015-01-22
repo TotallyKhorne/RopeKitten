@@ -1,10 +1,10 @@
 /* jshint node:true, laxcomma:true */
 
-var config  = require('./config.json')
-  , cmds    = require('./commands.json')
-  , irc     = require('irc')
-  , client  = new irc.Client(config.server, config.nick, config.opts)
-  , db      = require('diskdb').connect(__dirname, ['hangers'])
+var config   = require('./config.json')
+  , cmds     = require('./commands.json')
+  , irc      = require('irc')
+  , client   = new irc.Client(config.server, config.nick, config.opts)
+  , db       = require('diskdb').connect(__dirname, ['hangers'])
   , channels = {};
 
 // If the config has a non-null value for identPass, identify with the server.
