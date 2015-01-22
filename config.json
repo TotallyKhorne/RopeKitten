@@ -14,5 +14,9 @@
 	"errors" : {
 		"no_list" : ": I have yet to receive the userlist from the server. Please stand by.",
 		"no_target" : ": You need a target, fuckface."
+	},
+	"hangs" : {
+		"def" : "#{target}: #{req} has hanged a total of #{amount} people.",
+		"none": "#{target}: #{req} has yet to hang anyone."
 	}
 }
