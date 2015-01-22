@@ -1,4 +1,9 @@
 {
+	"identPass" : null,
+	"bot" : {
+		"name" : "RopeKittenBot",
+		"version" : "0.0.1"
+	},
 	"server": "irc.rizon.net",
 	"nick" : "RopeKitten",
 	"opts" : {
@@ -7,6 +12,7 @@
 		"channels" : ["#fagops"]
 	},
 	"errors" : {
-		"no_list" : ": I have yet to receive the userlist from the server. Please stand by."
+		"no_list" : ": I have yet to receive the userlist from the server. Please stand by.",
+		"no_target" : ": You need a target, fuckface."
 	}
 }
