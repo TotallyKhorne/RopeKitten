@@ -50,6 +50,7 @@
         "response": "flys halfway across the room and runs from #{target}'s fury.  You just kicked an animal, wtf is wrong with you?"
     },
     "!gift": {
+        "type" : "me",
         "response": [
             "trots up to you with something in her mouth and lays a dead mouse at your feet",
             "trots up to you with something in her mouth and lays a dead rat at your feet",
