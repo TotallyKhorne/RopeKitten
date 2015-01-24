@@ -5,7 +5,10 @@
             "purrs at #{target}",
             "hisses and scratches at #{target}'s face",
             "remains apathetic",
-            "enjoy's #{target}'s petting then after alotted stroke six bites the shit out of #{target}'s hand and runs off."
+            "enjoy's #{target}'s petting then after stroke six bites the shit out of #{target}'s hand and runs off.",
+            "stretches out and purrs in delight at #{target}'s petting",
+            "enjoys #{target}'s petting so much she flips over and presents her stomach for a bellywub",
+            "bats #{target}'s hand away angrily"
         ]
     },
     "!loveme": {
@@ -15,25 +18,47 @@
             "lays asleep on #{channel}'s couch and is uncaring towards your needs",
             "bolts away under #{channel}'s table when #{target} approaches her",
             "flattens her ears and hisses at #{target} making them back off",
-            "#{target} goes to find RopeKitten only to find that she is sleeping on #{random}'s lap, the fickle whore"
+            "#{target} goes to find RopeKitten only to find that she is sleeping on #{random}'s lap, the fickle whore",
+            "bats her eyes slowly to show affection to #{target}",
+            "nuzzles at #{target}'s hand and mews",
+            "gets onto #{target}'s bed while they are sleeping and sits on their chest and watches them sleep",
+            "#{target} puts a sticky note that says 'Love Me' on her head, she then freaks the fuck out and runs away",
+            "butts her head against #{target}'s head on #{channel}'s couch"
         ]
     },
     "!nolewd": {
         "type": "me",
         "response": [
             "disapproves of #{victim}'s lewdness and swiftly deals out punishment via a bite on the genitalia",
-            "sits there and stares at #{victim} with and incredibly dissapointed look",
-            "is so digusted she walks slowly away and curls up on #{channel}'s reading chair crippled forever by #{victim}'s unstable lewdness",
+            "sits there and stares at #{victim} with an incredibly disappointed look",
+            "is so disgusted she walks slowly away and curls up on #{channel}'s reading chair crippled forever by #{victim}'s unstable lewdness",
             "goes and tells the qt Japanese neighbor next door that #{victim} is 2lewd4her, ruining #{victim}'s high school reputation forever more",
-            "has decided to end #{victim}'s life due to his lewdness"
+            "has decided to end #{victim}'s life due to his lewdness",
+            "pisses on #{channel}'s walls and furniture due to #{target} stressing her out with their lewdness"
         ]
     },
     "!help": {
         "type": "say",
-        "response": "Commands: !help, !pet, !loveme, !nolewd"
+        "response": "Commands: !help, !pet, !loveme, !nolewd, !test, !hangCount, !kick, !gift"
     },
     "!test": {
         "type": "say",
-        "response": "It just werks"
+        "response": "Nyaa~~, I work Master"
+    },
+    "!kick": {
+        "type": "me",
+        "response": "flys halfway across the room and runs from #{target}'s fury.  You just kicked an animal, wtf is wrong with you?"
+    },
+    "!gift": {
+        "response": [
+            "trots up to you with something in her mouth and lays a dead mouse at your feet",
+            "trots up to you with something in her mouth and lays a dead rat at your feet",
+            "trots up to you with something in her mouth and lays a dead shrew at your feet",
+            "trots up to you with something in her mouth and lays a dead bird at your feet",
+            "trots up to you with something in her mouth and lays your dildo she found at your feet",
+            "trots up to you with something in her mouth and lays a disembodied arm she found at your feet, how did you not notice that?",
+            "trots up to you with something in her mouth and lays a LIVE GRENADE at your feet, RIP in pieces",
+            "trots up to you with something in her mouth and lays an IED at your feet, Insha'allah"
+        ]
     }
 }
