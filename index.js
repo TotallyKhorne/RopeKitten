@@ -25,7 +25,9 @@ client.addListener('names', function(channel, nicks) {
 
 //Respond to VERSION requests like a good bot.
 client.addListener('ctcp-version', function(from, to, message) {
-  client.ctcp(from, 'notice', '\001VERSION '+config.bot.name+'-v'+config.bot.version+'\001');
+  client.ctcp(from, 'notice', config.vres.replace(/#\{vname\}*/g, config.name)
+                                         .replace(/#\{vver\}*/g, config.version)
+  );
 });
 
 client.addListener('message', function(from, to, message) {
@@ -51,8 +53,13 @@ client.addListener('message', function(from, to, message) {
       else msg = config.hangs.none.replace(/#\{target\}*/g, from)
                                   .replace(/#\{req\}*/g, split[1]);
       client.say(to, msg);
+      return;
     }
   }
+
+  if (command === '!mosthanged');
+  if (command === '!hanged');
+  if (command === '!hangleader');
 
   if (cmds[command]) {
     //Shorthand variable.
@@ -72,6 +79,7 @@ client.addListener('message', function(from, to, message) {
     //If the command has a random target but the userlist is not loaded, error.
     if (res.indexOf('#{random}') > -1 && !users) {
       client.say(to, from + config.errors.no_list);
+      return;
     }
 
     //Replace all the variables in the response string with their valid values.
