@@ -38,7 +38,7 @@ client.addListener('message', function(from, to, message) {
     , command = split[0]
     , users = (channels[to] ? channels[to].users : false);
 
-  if (command === /\!hangcount/i) {
+  if (/\!hangcount/i.test(command)) {
     //If the hang count is requested without a valid target, error.
     if (!split[1]) {
       client.say(config.errors.no_target);
